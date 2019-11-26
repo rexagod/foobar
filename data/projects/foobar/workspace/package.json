@@ -1,0 +1,15 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha && python3 test.py && g++ test.cpp && ./a.out"
+  },
+  "author": "Pranshu Srivastava",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "mocha": "^6.2.1"
+  }
+}

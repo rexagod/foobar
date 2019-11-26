@@ -1,0 +1,4 @@
+version: '3'
+services:
+          jici:
+            image: rexagod/jici:lang-PJCC_Plus
