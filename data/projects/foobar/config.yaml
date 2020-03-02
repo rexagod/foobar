@@ -1,18 +1,10 @@
 
 scm:
-    type: git
-    repository: https://github.com/node-ci/nci
-    rev: master
 
 buildEvery:
-    time: "0 */5 * * * *"
-    withScmChangesOnly: true
 
 archived: false
 
 steps:
-    - name: sync deps
-      cmd: npm install && npm prune
-
-    - name: test
-      cmd: npm test
+    - name: listener testrun
+      cmd: bash -c "echo '3000 -> hit'"
